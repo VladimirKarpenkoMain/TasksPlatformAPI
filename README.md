@@ -68,7 +68,7 @@ TaskPlatform API — это API, представляет собой двуяз�
 4. **Создайте суперпользователя:**
 
     ```bash
-    docker-compose exec web python manage.py createsuperuser
+    docker-compose exec web-app python manage.py createsuperuser
     ```
 
 5. **Доступ к API:**
